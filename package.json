@@ -1,0 +1,33 @@
+{
+  "name": "bs-honors",
+  "version": "1.0.0",
+  "description": "\"Front-end mock-up of Passeando\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colcodeando/bs-honors.git"
+  },
+  "author": "\"Jorge Marzola\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colcodeando/bs-honors/issues"
+  },
+  "homepage": "https://github.com/colcodeando/bs-honors#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "jit-grunt": "^0.10.0",
+    "node-sass": "^4.12.0",
+    "time-grunt": "^2.0.0"
+  }
+}
