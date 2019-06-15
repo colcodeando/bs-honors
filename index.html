@@ -29,6 +29,21 @@
             </div>
         </nav>
 
+
+        <div id="searchModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id ="searchModalLabel">You XXX a visa</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <header>
         </header> <!-- Empty header for card placement-->
 
@@ -57,16 +72,13 @@
                                 </div>   
                                 <div class="form-group row">
                                     <div class="col-12">
-                                        <button type="button" class="btn btn-primary btn-block">Search</button>
+                                        <button type="button" class="btn btn-primary btn-block" id="search" data-toggle="modal" data-target="#searchModal">Search</button>
                                     </div>    
                                 </div>   
                             </form>
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
         
            <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
         <!-- build:js js/main.js -->   
