@@ -2,6 +2,9 @@ header {
   min-height: 200px; }
 
 body {
-  background: greenyellow; }
+  background: #ffffe6; }
+
+.navbar {
+  background-color: #ccffff; }
 
 /*# sourceMappingURL=styles.css.map */
